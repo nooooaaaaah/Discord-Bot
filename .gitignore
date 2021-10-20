@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Venvs
+.Python
+venvs/
+
+# VS code 
+.vscode/
+
+
+# patch-notes feature
+runtime.txt
