@@ -8,13 +8,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
-<<<<<<< HEAD
-def scraper(tableID, xpath, key):
-    start_time = time.perf_counter()
-=======
 run_times_file = open("runtime.txt", 'a')
 
->>>>>>> da0b4a3fcf6ff03b75b571059a7307719fbde32d
 
 def scraper(threads, tableID, xpath, key):
     start_time = time.perf_counter()
