@@ -5,7 +5,7 @@ import discord # discord python library
 from discord.ext import commands # commands framework
 from dotenv import load_dotenv # used for environmental variables 
 
-from parseHTML import queue_time # returns info
+import importlib.util # use to import custom python modules 
 
 # .env 
 load_dotenv() # adds the env variables from .env
